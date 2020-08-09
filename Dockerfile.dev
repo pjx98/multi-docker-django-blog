@@ -3,7 +3,7 @@ FROM python:3.8.3-alpine
 
 # set work directory
 WORKDIR /usr/src/app
-RUN mkdir -p /usr/src/app/staticfiles/blog
+
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
